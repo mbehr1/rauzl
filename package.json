@@ -1,0 +1,28 @@
+{
+  "name": "rauzl",
+  "version": "1.0.0",
+  "description": "Random Access UnZip Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Matthias Behr",
+    "email": "mbehr+rauzl@mcbehr.de"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbehr1/rauzl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbehr1/rauzl/issues"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
